@@ -1,0 +1,341 @@
+@charset "utf-8";
+/* CSS Document */
+/**************广告栏****************/
+#index_adver{ 
+	width:1000px;
+	height:65px;
+	margin:0 auto;
+	text-align:center;
+}
+/***********主页内容区域的css样式***********/
+#index_content{ 
+	width:1000px;
+	height:1000px;
+	overflow:hidden;
+	margin:20px auto;
+}
+.index_content_left{ 
+	width:190px;
+	height:880px;	
+	float:left;
+}
+.index_content_leftTop{ 
+	width:190px;
+	height:50px;
+	border:1px solid #999;
+}
+.index_content_leftCate{
+	height:25px;
+	background:#FFF0D9;
+	line-height:30px;
+	font-size:14px;
+	font-weight:bold;
+	color:#F33;
+	padding-left:8px;
+}
+.index_content_leftTopsort{
+	height:25px;
+	line-height:25px;
+	padding-left:8px;
+}
+.index_content_leftTopsort li{
+ 	float:left;
+	margin: 0 3px;
+	color:#333;
+}
+.index_content_leftBotton{
+	width:190px;
+	height:825px;
+	border:1px solid #666;
+	margin-top:10px;	
+}
+.index_content_leftBottonCate{ 
+	height:45px;
+	padding-left:8px;
+	margin-top:15px;
+}
+.index_content_leftBottonCate p{ 
+	font-weight:bold;
+	margin-top:5px;
+}
+.index_content_leftBottonCateul{ 
+	margin-top:5px;
+}
+.index_content_leftBottonCate li{ 
+	float:left;
+	margin:5px 3px;
+	color:#666;
+}
+.index_content_middle{ 
+	width:560px;
+	height:900px;	
+	float:left;
+	margin-left:10px;
+}
+.index_content_middleTop{ 
+	width:560px;
+	height:260px;
+	border:1px solid #CCC;
+	border-radius:2px;
+	background:#f2f2f3;
+}
+.middletopAdver{
+	width:560px;
+	height:51px;
+	margin-top:-13px;
+	margin-left:10px;
+	background:url(../img/dd_scroll_top.gif) no-repeat;
+}
+/*轮播图*/
+.middletopAdverLi{
+	width:560px;
+	height:180px;
+	margin:15px 0px 0px 5px;
+	overflow:hidden;
+	position:relative;
+}
+.liImgs li{ 
+	width:500px;
+	height:180px;
+}
+.liNums{ 
+	position:absolute;
+	top:0px;
+	left:513px;
+}
+.liNums li{ 
+	width:30px;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	background:#FC6;
+	margin-top:5px;
+	cursor:pointer;
+}
+.liNums li.numsOver{ 
+	background:#0F9;
+}
+.index_content_middleMid{
+	width:560px;
+	height:290px;
+	border:1px solid #666;
+	margin-top:10px;
+}
+.book_title{
+	width:560px;
+	height:25px;
+	background:#EBEBEB;
+}
+.book_titleLeft{ 
+	font-size:14px;
+	color:#900;
+	height:25px;
+	line-height:30px;
+	margin-left:10px;
+	float:left;
+}
+#book_titleMid{ 
+	width:200px;
+	height:25px;
+	float:left;
+	margin-left:70px;
+}
+#book_titleMid li{ 
+	float:left;
+	width:40px;
+	height:22px;
+	line-height:27px;
+	border:1px solid #CCC;
+	border-style:outset;
+	margin-right:4px;
+	text-align:center;
+	background:#096;
+	color:#FFF;
+	cursor:pointer;
+}
+.book_titleRight{ 
+	float:right;
+	margin-right:10px;
+	height:25px;
+	line-height:30px;
+}
+#book_content{
+	width:558px;
+	height:250px;
+}
+.book_categroy{ 
+	clear:both;
+}
+.book_categroy dt{ 
+	width:90px;
+	float:left;
+	text-align:center;
+	margin:10px 0 0 10px;
+}
+.Bookcont_title{ 
+	font-size:14px;
+	color:#03C;
+	line-height:25px;
+}
+.book_categroy dd{
+	float:left;
+	width:170px;
+	line-height:20px;
+	margin-top:5px;
+}
+.index_content_middleBottom{
+	width:560px;
+	height:410px;
+	border:1px solid #666;
+	margin-top:10px;
+}
+.book_ImpotContent{ 
+	width:558px;
+	height:380px;
+}
+.importBook{ 
+	clear:both;
+	margin:5px;
+}
+.importBook dt{
+	width:100px;
+	text-align:center;
+	margin:15px 0 0 30px;
+	float:left;
+}
+.importBook dd{ 
+	width:125px;
+	float:left;
+	margin:10px 0 0 12px;
+}
+.importBook dd a{ 
+	color:#00C;
+}
+.importBook dd a:hover{ 
+	text-decoration:underline;
+}
+.index_content_right{ 
+	width:230px;
+	height:900px;
+	float:right;
+}
+.index_content_rightTop{
+	width:230px;
+	height:550px;
+	border:1px solid #333;
+	float:right;
+	position:relative;	
+}
+.book_list{
+	width:228px;
+	height:300px;
+	overflow:hidden;
+	position:relative;
+}
+.book_list ul{ 
+	position:absolute;
+	top:0px;
+	left:20px;
+}
+.book_list ul li{ 
+	border-bottom:1px dashed #666;
+	whidth:90%;
+	text-align:center;
+	height:25px;
+	line-height:25px;
+	text-align:center;
+	cursor:pointer;
+}
+.content_rightAdv{ 
+	width:220px;
+	height:224px;
+	margin-left:10px;
+	
+}
+.content_rightAdv img{ 
+	margin:2px 0 5px 0;
+}
+.index_content_rightBottom{
+	width:230px;
+	height:430px;
+	background:#F2F4DF;
+	position:absolute;
+	top:815px;
+	border:1px solid #333;
+}
+.book_rank{
+	width:230px;
+	height:30px;
+	background:#518700;
+	font-size:14px;
+	color:#FFF;
+	text-indent:1em;	
+}
+#book_rankTab{
+	width:230px;
+	height:22px;
+	background:#F2F4DF;
+}
+#book_rankTab ul{ 
+	float:right;
+}
+#book_rankTab ul li{
+	float:left;
+	text-align:center;
+	border:1px solid #999;
+	background: #FFD477;
+	width:35px;
+	height:18px;
+	margin-top:1px;
+}
+#book_rankContent{ 
+	width:230px;
+	height:375px;
+}
+#book_rankContent dl{
+	margin-top:3px;
+}
+#book_rankContent dt{
+	float:left;
+	text-align:center;
+	margin-left:5px;
+}
+
+#book_rankContent dd{
+	float:left;
+	line-height:18px;
+	width:140px;
+	height:85px;
+}
+#book_rankContent li{
+	margin-left:25px;
+	line-height:23px;
+}
+#book_rankContent li a{
+	color:#1965B3;
+}
+#book_rankContent li a:hover{ 
+	text-decoration:underline;
+}
+/*******tab选项卡鼠标获取样式************/
+#book_titleMid li.liover{ 
+	float:left;
+	width:40px;
+	height:22px;
+	line-height:27px;
+	border:1px solid #CCC;
+	border-style:outset;
+	margin-right:4px;
+	text-align:center;
+	background:#933;
+}
+#book_rankTab ul li.liover2{
+	float:left;
+	text-align:center;
+	border:1px solid #999;
+	background: #FFD477;
+	width:35px;
+	height:18px;
+	margin-top:1px;
+	background:#F30;
+}

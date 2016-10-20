@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>login</title>
+<link href="css/style_login.css" type="text/css" rel="stylesheet"/>
+<link href="css/style_basic.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="js/login.js"></script>
+</head>
+
+<body>
+	<div id="header">
+    	<div class="login_header_left">
+        	<img src="img/logo.gif"/>
+        </div>
+        <div class="login_header_mid">
+        	<img src="img/login_header.gif"/>
+        </div>
+        <div class="login_header_right">
+        	<a href="index.html">首页</a>
+            |
+            <a href="product.html">商品展示</a>
+            |
+            <a href="shopping.html">购物车</a>
+            |
+            <a href="register.html">注册</a>
+        </div>
+    </div><!--header结束-->
+    <div id="main">
+    	<div class="login_main_left">
+        	<div class="login_main_leftimg">
+            	<img alt="中间图" src="img/login_main_01.jpg"/>
+                <img alt="中间图" src="img/login_main_02.jpg"/>
+                <img alt="中间图" src="img/login_main_03.jpg"/>
+            </div>
+            <div class="login_main_leftend">
+            	<h6>更低的价格</h6>
+                <p>100万种商品包含图书、数码、美妆、运动健康等，价格低于地面店20%以上<p>
+                <h6>更低的价格</h6>
+                <p>100万种商品包含图书、数码、美妆、运动健康等，价格低于地面店20%以上<p>
+                <h6>更低的价格</h6>
+                <p>100万种商品包含图书、数码、美妆、运动健康等，价格低于地面店20%以上<p>
+            </div>
+        </div>
+        <div class="login_main_mid">
+        	<div class="login_main_contentTop">
+            	<img src="img/login_icon_bg_01.gif"/>	
+                &nbsp;请登录当当网
+            </div>
+            <hr style="border:2px solid #FC9;width:290px;margin-left:5px;"/>
+            
+            <div class="login_main_contentMid">
+            	<form method="get" action="index.html">
+                	<dl class="login__row">
+                        <dt>Email地址或昵称：</dt>
+                            <dd><input class="login_input" id="username" type="text" name="username" onfocus="userFocus()" onblur="userBlur()"/></dd>
+                    </dl>
+                    <dl class="login__row">    
+                         <dt>密码：</dt>
+                            <dd><input class="login_input" id="password" type="password" name="password" onfocus="passwordFocus()" onblur="passwordBlur()"/></dd>
+                            <dd style="margin-top:8px;">
+                            <input class="login_button" type="button" value="" onclick="loginSubmit()"/>
+                            </dd>                      
+                    </dl>
+                </form>
+            </div>
+            
+            <div class="login_main_contentEnd">
+            	<p><span style="font-weight:bold">还不是当当网用</span>户？快捷方便的免费注册，让你立刻尽享当当网提供的条项优惠服务...... </p>
+                
+                <a href="register.html">
+                <input id="login_newuser" class="login_newuser" type="button" value=""/>
+                </a>
+            </div>
+        </div><!--login_main_mid结束-->
+        
+        <div class="login_main_right">
+        	<img alt="右部图片" src="img/login_main_04.jpg"/>
+        </div><!--login_main_right结束-->
+    </div><!--main结束-->
+    <!--------------footer开始-------------->
+<div id="footer">
+    <div class="footer_bottom" style="padding-top:20px;">
+    Copyright (C) 当当网 2004-2009, All Rights Reserved
+    <img src="img/validate.gif" class="footer_logo"/>
+    京ICP证041189号 音像制品经营许可证 京音网8号
+    </div>
+</div>
+</body>
+</html>

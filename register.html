@@ -1,0 +1,137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>当当网注册页面</title>
+<link type="text/css" href="css/style_register.css" rel="stylesheet"/>
+<link href="css/style_basic.css" type="text/css" rel="stylesheet"/>
+<script src="js/register.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="header">
+	<div class="register_header">
+        <div class="register_header_left">
+            <img src="img/logo.gif"/>
+        </div>
+        <div class="register_header_right">
+            <a href="index.html">首页</a>
+            |
+            <a href="product.html">商品展示</a>
+            |
+            <a href="shopping.html">购物车</a>
+            |
+            <a href="register.html">注册</a>
+        </div>
+    </div>
+    
+</div><!--header结束-->
+<div id="main">
+	<div class="register_main">
+    	<div class="register_top_bg"></div>
+        
+    	<div class="register_main_topbg">
+        	<ul>
+            	<li class="register_mid_left">
+                	填写注册信息
+                </li>
+                <li class="register_mid_mid">
+                	2.邮箱验证
+                </li>
+                <li class="register_mid_right">
+                	3.完成注册
+                </li>
+            </ul>
+        </div>
+        
+        <div class="register_main_midbg">
+        	<img src="img/register_pic_02.gif"/>
+            <br />
+            <br/>
+            您所提供的资料不会做其他用途，敬请安心填写。
+        </div>
+        <hr style="border:1px dotted #999;"/>
+        
+        <div class="register_main_footermessage">
+        	<form  method="get" action="login.html" >
+            	<dl class="register_row">
+                	<dt>Email地址：</dt>
+                    <dd>
+                    	<!--autocomplete="off"用于清除记录-->
+                    	<input type="text" id="email" class="register_input" onfocus="emailFocus()" onblur="emailBlur()"/>
+                    </dd>
+                    <dd> 
+                    	<div id="email_prompt"></div>
+                    </dd>
+                </dl>
+                
+                <dl class="register_row">
+                	<dt>设置昵称：</dt>
+                    <dd>
+                    	<input type="text" id="username" class="register_input" onfocus="usernameFocus()" onblur="usernameBlur()"/>
+                    </dd>
+                    <dd> 
+                    	<div id="username_prompt"></div>
+                    </dd>
+                </dl>
+                
+                <dl class="register_row">
+                	<dt>设定密码：</dt>
+                    <dd>
+                    	<input type="password" id="password" class="register_input" onfocus="passwordFocus()" onblur="passwordBlur()"/>
+                    </dd>
+                    <dd> 
+                     	<div id="password_prompt"></div>
+                    </dd>
+                </dl>
+                <dl class="register_row">
+                	<dt>再输入一次密码：</dt>
+                    <dd>
+                    	<input type="password" id="repassword" class="register_input" onfocus="repasswordFocus()" onblur="repasswordBlur()"/>
+                    </dd>
+                    <dd> 
+                     	<div id="repassword_prompt"></div>
+                    </dd>
+                </dl>
+                
+              	<dl class="register_row">
+                	<dt>性别：</dt>
+                    <dd>
+                    	<input type="radio" id="man" value="男" name="sex"/>
+                        <label for="man">男</label>
+                    </dd>
+                   <dd>
+                    	<input type="radio" id="woman" value="女" name="sex"/>
+                        <label for="woman">女</label>
+                    </dd>
+                </dl>
+                
+                <dl class="register_row">
+                	<dt>所在地区：</dt>
+                    <dd>
+                    	<select id="provine" style="width:120px" onchange="City()">
+                        	
+                        </select>
+                    </dd>
+                   	<select id="city" style="width:130px" >
+                    	
+                    </select>
+                    </dd>
+                </dl>
+                <div class="register_but">
+                    <input id="register_button" type="button" onclick="registerSubmit()" value="">
+                </div>
+			 </form>
+        </div><!--register_main_footermessage结束-->
+    </div><!--register_main结束-->
+</div><!--main结束-->
+<!--------------footer开始-------------->
+<div id="footer">
+    <div class="footer_bottom" >
+    Copyright (C) 当当网 2004-2009, All Rights Reserved
+    <img src="img/validate.gif" class="footer_logo"/>
+    京ICP证041189号 音像制品经营许可证 京音网8号
+    </div>
+</div><!--footer结束-->
+
+</body>
+</html>

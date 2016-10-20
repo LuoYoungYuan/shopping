@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+#header,#main,#footer{
+	width:960px;
+	margin:0px auto 0px auto;
+	clear:both;
+	float:none;
+	}
+.login_header_left{
+	float:left;
+	margin:30px 10px 0px 100px;
+}
+.login_header_mid{
+	float:left;
+	margin:55px 0px 0px 0px;
+}
+.login_header_right{
+	float:right;
+	margin:50px 60px 0px 0px;
+}
+.login_header_right a{
+	cursor:pointer;
+}
+.login_header_right a:hover{ 
+	text-decoration:underline;
+}
+.login_main_left{ 
+	float:left;
+}
+.login_main_left img{ 
+	float:left;
+	border:0;
+}
+/*用到了多列布局*/
+.login_main_leftend{ 
+	clear:both;
+	line-height:25px;
+	width:573px;
+
+	-moz-column-width: 150px;/*每列的宽度*/
+	-moz-column-count: 3;/*分为3列*/
+	-moz-column-gap: 50px;/*间距*/
+	-moz-column-rule: 1px dashed gray;/*分割线样式*/
+
+	-webkit-column-width: 150px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: 50px;
+	-webkit-column-rule: 1px dashed gray;
+
+	column-width: 150px;
+	column-count: 3;
+	column-gap: 50px;
+	column-rule: 1px dashed gray;
+}
+.login_main_leftend h6{ 
+	color:#090;
+}
+.login_main_leftend p{ 
+	line-height:23px;
+}
+.login_main_mid{ 
+	width:300px;
+	height:290px;
+	border:1px solid #666;
+	float:left;
+}
+.login_main_contentTop{ 
+	font-size:14px;
+	font-weight:bold;
+	color:#900;
+	padding:10px 0 0 15px;
+}
+.login_main_contentMid{ 
+	width:300px;
+	height:120px;
+}
+.login__row{ 
+	clear:both;
+	margin-top:30px;
+}
+.login__row dt{ 
+	width:150px;
+	height:30px;
+	float:left;
+	text-align:right;
+	font-size:14px;
+}
+.login__row dd{ 
+	float:left;
+	display:inline;
+}
+.login_input{ 
+	width:120px;
+	height:18px;
+	padding-left:2px;
+}
+.login_button{ 
+	width:77px;
+	height:26px;
+	background:url(../img/login_but_out.jpg) no-repeat;
+	cursor:pointer;
+}
+.login_button:hover{ 
+	width:77px;
+	height:26px;
+	background:url(../img/login_but_over.jpg) no-repeat;
+	cursor:pointer;
+}
+.login_main_contentEnd{ 
+	background:#FFF9E7;
+	border-top:1px dashed #666;
+}
+.login_newuser{ 
+	width:132px;
+	height:26px;
+	background:url(../img/login_newuser_out.jpg);
+	margin-left:140px;
+	cursor:pointer;
+}
+.login_newuser:hover{ 
+	width:132px;
+	height:26px;
+	background:url(../img/login_newuser_over.jpg);
+	margin-left:140px;
+	cursor:pointer;
+}
+.login_main_contentEnd p{ 
+	display:inline-block;
+	margin:10px;
+}
+.login_main_right{ 
+	float:left;
+}
+/*login页面验证*/
+/*获取鼠标焦点样式*/
+.login_input_focus{  
+	width:120px;
+	height:18px;
+	padding-left:2px;
+	background:#CFF;
+}
+
